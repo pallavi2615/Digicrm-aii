@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: digicrm_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: digicrm
+      POSTGRES_PASSWORD: digicrm_dev_pass
+      POSTGRES_DB: digicrm
+    ports:
+      - "5433:5432"
+    volumes:
+      - digicrm_pgdata:/var/lib/postgresql/data
+
+volumes:
+  digicrm_pgdata:

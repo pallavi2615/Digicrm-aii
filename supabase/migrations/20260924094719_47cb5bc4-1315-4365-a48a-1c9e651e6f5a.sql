@@ -1,0 +1,1 @@
+CREATE POLICY re_prop_buyer_read ON public.re_properties FOR SELECT TO authenticated USING (EXISTS (SELECT 1 FROM public.re_deals d WHERE d.property_id = re_properties.id AND d.buyer_user_id = auth.uid()));

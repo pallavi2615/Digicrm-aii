@@ -1,0 +1,1 @@
+UPDATE public.creator_invoices SET paid_amount = round(amount * (1 + tax_pct/100)) WHERE number = 'INV-DIWALI-1' AND status = 'Paid';

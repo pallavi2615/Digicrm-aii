@@ -1,0 +1,1 @@
+REVOKE ALL ON FUNCTION public.re_docs_sync() FROM public, anon, authenticated;

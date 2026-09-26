@@ -1,0 +1,22 @@
+# Roadmap
+- [x] Creator team roles (manager / finance / campaign manager) invited by email; approvals enforced in database
+- [ ] Instagram stats sync — built; waiting on INSTAGRAM_APP_ID / INSTAGRAM_APP_SECRET from user's Meta app
+- [x] Walked brand campaign: post → apply → accept → proposal → contract → invoice → paid
+- [x] DigiDistribution AI (core + field sales) with demo data on the Super Admin account
+- [x] Industry Template Engine: 15 templates (7 core + 8 more), AI "describe your business" setup, sub-types, single/multi/franchise locations, workspace with dashboard, pipeline, automations, WhatsApp, AI agents, reports, locations/royalty
+- [ ] FranchiseOS (HQ, franchise recruitment, campaigns to outlets, asset library, health score, academy) — next phase
+- [x] Distributor portal (/dist-portal): orders, stock, sales, outstanding, payments; invite by portal email; reported payments need HQ confirmation
+- [x] Real Estate Growth OS: Lead360 (scoring, routing, duplicates, follow-ups, lost/win-back), projects & inventory, MatchAI, site visits, deals (cost sheet, discount approvals, booking, payment schedule, loans), partners & commissions, analytics/forecast/copilot
+- [x] Partner payout accounts (manual demo accounts): send money with UTR, paid payouts auto-credit, balances live
+- [ ] Real estate later: WhatsApp Business API inbox/AI agent, call recording, portal (99acres/MagicBricks) feeds, e-sign, rental/resale workflows, mobile voice CRM
+- [x] Workspace setup: customise step (modules on/off, rename/reorder stages, fields/automations/AI agents on/off, defaults) + full preview step
+- [x] Template Builder (/admin-templates): create, edit, duplicate, publish/unpublish, revert — no code
+- [x] Restaurant OS (/restaurant): outlet metrics, reservations, orders, guests & loyalty tiers, reviews with AI replies, AI follow-up actions & briefing
+- [x] Education CRM suite: 6 templates (Coaching, College/University, Study Abroad Consultant, School, EdTech, Skill/Training)
+- [x] Coaching Institute CRM (/coaching): dashboard, pipeline, demos, courses/batches/branches, students (attendance, tests, risk), fees, AI counsellor, follow-ups, campaigns, command center
+- [ ] Next: full Study Abroad Consultant and College workspaces
+- [x] Sales App (/m): leads, calls, WhatsApp, follow-ups, site visits (GPS check-in), property search, offline cache + sync queue
+- [x] AI Sales Copilot (/realestate/copilot + in app): answers, available-unit recommendations, WhatsApp drafts, auto CRM updates
+- [x] Buyer portal (/buyer) + booking documents verified via DigiVerification; auto doc status + Booking → Registration
+- [x] Real Estate as default template in setup; tower builder for first project
+- [x] Case-insensitive document\/fee\/payout status checks; verified docs move leads in every education template and real estate
